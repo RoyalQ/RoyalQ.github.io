@@ -1,165 +1,323 @@
-<!DOCTYPE html>
-<html>
-  <!-- Html Head Tag-->
-  <head>
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="学习之路">
-  <meta name="author" content="QXQ">
-  <!-- Open Graph Data -->
-  <meta property="og:title" content="计算器App心得"/>
-  <meta property="og:description" content="学习之路" />
-  <meta property="og:site_name" content="Rookie&#39;s think"/>
-  <meta property="og:type" content="article" />
-  <meta property="og:image" content="http://yoursite.comundefined"/>
   
-    <link rel="alternate" href="/atom.xml" title="Rookie&#39;s think" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-
-  <!-- Site Title -->
-  <title>Rookie's think</title>
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <!-- Custom CSS -->
-  
-  <link rel="stylesheet" href="/css/style.light.css">
-
-  <!-- Google Analytics -->
-  
-
+    <title>计算器App心得 | Rookie&#39;s think</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    
+    <meta name="author" content="QXQ">
+    
+    <meta name="description" itemprop="description" content="学习之路">
+    
+    
+    
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/pacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/pacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
   <body>
-    <!-- Page Header -->
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.svg" alt="Rookie&#39;s think" title="Rookie&#39;s think"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Rookie&#39;s think">Rookie&#39;s think</a></h1>
+				<h2 class="blog-motto">你自己看</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+					<li>
+					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="text" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
 
-
-<header class="site-header header-background" style="background-image: url(/img/default-banner-dark.jpg)">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="page-title with-background-image">
-          <p class="title">计算器App心得</p>
-          <p class="subtitle"></p>
-        </div>
-        <div class="site-menu with-background-image">
-          <ul>
-            
-              <li>
-                <a href="/">
-                  
-                  Home
-                  
-                </a>
-              </li>
-            
-              <li>
-                <a href="/archives">
-                  
-                  Archives
-                  
-                </a>
-              </li>
-            
-              <li>
-                <a href="https://github.com/RoyalQ">
-                  
-                  Github
-                  
-                </a>
-              </li>
-            
-              <li>
-                <a href="/792449184@qq.com">
-                  
-                  Email
-                  
-                </a>
-              </li>
-            
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2017/05/11/1/" title="计算器App心得" itemprop="url">计算器App心得</a>
+  </h1>
+  <p class="article-author">By
+    
+      <a href="http://yoursite.com" title="QXQ">QXQ</a>
+    </p>
+  <p class="article-time">
+    <time datetime="2017-05-11T11:53:30.000Z" itemprop="datePublished">2017-05-11</time>
+    更新日期:<time datetime="2017-05-15T12:59:18.000Z" itemprop="dateModified">2017-05-15</time>
+    
+  </p>
 </header>
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#计算器App心得"><span class="toc-number">1.</span> <span class="toc-text">计算器App心得</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#展示界面搭建"><span class="toc-number">1.1.</span> <span class="toc-text">展示界面搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#界面主要由清新绿色背景构成，添加三个label-四个Button-构成的一个简易的计算器，通过属性连线，编写计算，也没啥可说的"><span class="toc-number">1.1.1.</span> <span class="toc-text">界面主要由清新绿色背景构成，添加三个label,四个Button,构成的一个简易的计算器，通过属性连线，编写计算，也没啥可说的</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#心得"><span class="toc-number">1.2.</span> <span class="toc-text">心得</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#在做之前我其实是一脸懵逼的，以前写C语言的时候通常是要靠直接写，但是做出来完全没有什么好看的，其实做这个还是蛮有意思的，与C不同的是这个可以自己直接搭建界面，也不困难，虽说刚开始什么也不懂，糊里糊涂做出来，这个主要就定义了三个对象，输入num1-num2-的文本格式，在计算之前转换为duoble，然后加减乘除得出sum。做的时候也出了不少问题，不知道强弱引用，也不知道super-self是什么鬼，而且还有为什么有NS-UI等前缀，通过学习使我逐步了解，慢慢运用，最终完成这东西。"><span class="toc-number">1.2.1.</span> <span class="toc-text">在做之前我其实是一脸懵逼的，以前写C语言的时候通常是要靠直接写，但是做出来完全没有什么好看的，其实做这个还是蛮有意思的，与C不同的是这个可以自己直接搭建界面，也不困难，虽说刚开始什么也不懂，糊里糊涂做出来，这个主要就定义了三个对象，输入num1,num2 的文本格式，在计算之前转换为duoble，然后加减乘除得出sum。做的时候也出了不少问题，不知道强弱引用，也不知道super,self是什么鬼，而且还有为什么有NS,UI等前缀，通过学习使我逐步了解，慢慢运用，最终完成这东西。</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#强力注释一波（加点字数）"><span class="toc-number">1.3.</span> <span class="toc-text">强力注释一波（加点字数）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#强弱引用：默认所有的指针变量都是强指针，强引用也就是通常所讲的引用，其存亡直接决定了所指对象的存亡。如果不存在指向一个对象的引用，并且此对象不再显示列表中，则此对象会被从内存中释放。弱引用除了不决定对象的存亡外，其他与强引用相同。即使一个对象被持有无数个若引用，只要没有强引用指向他，那么其还是会被清除。"><span class="toc-number">1.3.1.</span> <span class="toc-text">强弱引用：默认所有的指针变量都是强指针，强引用也就是通常所讲的引用，其存亡直接决定了所指对象的存亡。如果不存在指向一个对象的引用，并且此对象不再显示列表中，则此对象会被从内存中释放。弱引用除了不决定对象的存亡外，其他与强引用相同。即使一个对象被持有无数个若引用，只要没有强引用指向他，那么其还是会被清除。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#self：在动态方法中，self代表着”对象”，在静态方法中，self代表着”类”。万变不离其宗，记住一句话就行了：self代表着当前方法的调用者。"><span class="toc-number">1.3.2.</span> <span class="toc-text">self：在动态方法中，self代表着”对象”，在静态方法中，self代表着”类”。万变不离其宗，记住一句话就行了：self代表着当前方法的调用者。</span></a></li></ol></li></ol></li></ol>
+		</div>
+		
+		<h2 id="计算器App心得"><a href="#计算器App心得" class="headerlink" title="计算器App心得"></a>计算器App心得</h2><h3 id="展示界面搭建"><a href="#展示界面搭建" class="headerlink" title="展示界面搭建"></a>展示<img src="/img/jsq.png" alt=""><a id="more"></a>界面搭建</h3><h4 id="界面主要由清新绿色背景构成，添加三个label-四个Button-构成的一个简易的计算器，通过属性连线，编写计算，也没啥可说的"><a href="#界面主要由清新绿色背景构成，添加三个label-四个Button-构成的一个简易的计算器，通过属性连线，编写计算，也没啥可说的" class="headerlink" title="界面主要由清新绿色背景构成，添加三个label,四个Button,构成的一个简易的计算器，通过属性连线，编写计算，也没啥可说的"></a>界面主要由清新绿色背景构成，添加三个label,四个Button,构成的一个简易的计算器，通过属性连线，编写计算，也没啥可说的</h4><h3 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h3><h4 id="在做之前我其实是一脸懵逼的，以前写C语言的时候通常是要靠直接写，但是做出来完全没有什么好看的，其实做这个还是蛮有意思的，与C不同的是这个可以自己直接搭建界面，也不困难，虽说刚开始什么也不懂，糊里糊涂做出来，这个主要就定义了三个对象，输入num1-num2-的文本格式，在计算之前转换为duoble，然后加减乘除得出sum。做的时候也出了不少问题，不知道强弱引用，也不知道super-self是什么鬼，而且还有为什么有NS-UI等前缀，通过学习使我逐步了解，慢慢运用，最终完成这东西。"><a href="#在做之前我其实是一脸懵逼的，以前写C语言的时候通常是要靠直接写，但是做出来完全没有什么好看的，其实做这个还是蛮有意思的，与C不同的是这个可以自己直接搭建界面，也不困难，虽说刚开始什么也不懂，糊里糊涂做出来，这个主要就定义了三个对象，输入num1-num2-的文本格式，在计算之前转换为duoble，然后加减乘除得出sum。做的时候也出了不少问题，不知道强弱引用，也不知道super-self是什么鬼，而且还有为什么有NS-UI等前缀，通过学习使我逐步了解，慢慢运用，最终完成这东西。" class="headerlink" title="在做之前我其实是一脸懵逼的，以前写C语言的时候通常是要靠直接写，但是做出来完全没有什么好看的，其实做这个还是蛮有意思的，与C不同的是这个可以自己直接搭建界面，也不困难，虽说刚开始什么也不懂，糊里糊涂做出来，这个主要就定义了三个对象，输入num1,num2 的文本格式，在计算之前转换为duoble，然后加减乘除得出sum。做的时候也出了不少问题，不知道强弱引用，也不知道super,self是什么鬼，而且还有为什么有NS,UI等前缀，通过学习使我逐步了解，慢慢运用，最终完成这东西。"></a>在做之前我其实是一脸懵逼的，以前写C语言的时候通常是要靠直接写，但是做出来完全没有什么好看的，其实做这个还是蛮有意思的，与C不同的是这个可以自己直接搭建界面，也不困难，虽说刚开始什么也不懂，糊里糊涂做出来，这个主要就定义了三个对象，输入num1,num2 的文本格式，在计算之前转换为duoble，然后加减乘除得出sum。做的时候也出了不少问题，不知道强弱引用，也不知道super,self是什么鬼，而且还有为什么有NS,UI等前缀，通过学习使我逐步了解，慢慢运用，最终完成这东西。</h4><h3 id="强力注释一波（加点字数）"><a href="#强力注释一波（加点字数）" class="headerlink" title="强力注释一波（加点字数）"></a>强力注释一波（加点字数）</h3><h4 id="强弱引用：默认所有的指针变量都是强指针，强引用也就是通常所讲的引用，其存亡直接决定了所指对象的存亡。如果不存在指向一个对象的引用，并且此对象不再显示列表中，则此对象会被从内存中释放。弱引用除了不决定对象的存亡外，其他与强引用相同。即使一个对象被持有无数个若引用，只要没有强引用指向他，那么其还是会被清除。"><a href="#强弱引用：默认所有的指针变量都是强指针，强引用也就是通常所讲的引用，其存亡直接决定了所指对象的存亡。如果不存在指向一个对象的引用，并且此对象不再显示列表中，则此对象会被从内存中释放。弱引用除了不决定对象的存亡外，其他与强引用相同。即使一个对象被持有无数个若引用，只要没有强引用指向他，那么其还是会被清除。" class="headerlink" title="强弱引用：默认所有的指针变量都是强指针，强引用也就是通常所讲的引用，其存亡直接决定了所指对象的存亡。如果不存在指向一个对象的引用，并且此对象不再显示列表中，则此对象会被从内存中释放。弱引用除了不决定对象的存亡外，其他与强引用相同。即使一个对象被持有无数个若引用，只要没有强引用指向他，那么其还是会被清除。"></a>强弱引用：默认所有的指针变量都是强指针，<strong>强引用也就是通常所讲的引用，其存亡直接决定了所指对象的存亡。如果不存在指向一个对象的引用，并且此对象不再显示列表中，则此对象会被从内存中释放。弱引用除了不决定对象的存亡外，其他与强引用相同。即使一个对象被持有无数个若引用，只要没有强引用指向他，那么其还是会被清除。</strong></h4><h4 id="self：在动态方法中，self代表着”对象”，在静态方法中，self代表着”类”。万变不离其宗，记住一句话就行了：self代表着当前方法的调用者。"><a href="#self：在动态方法中，self代表着”对象”，在静态方法中，self代表着”类”。万变不离其宗，记住一句话就行了：self代表着当前方法的调用者。" class="headerlink" title="self：在动态方法中，self代表着”对象”，在静态方法中，self代表着”类”。万变不离其宗，记住一句话就行了：self代表着当前方法的调用者。"></a>self：在动态方法中，self代表着”对象”，在静态方法中，self代表着”类”。万变不离其宗，记住一句话就行了：self代表着当前方法的调用者。</h4>  
+	</div>
+		<footer class="article-footer clearfix">
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/666/">666</a>
+  </div>
 
 
-<article>
-  <div class="container typo">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-info text-muted">
-          
-            <!-- Author -->
-            <span class="author info">By QXQ</span>
-          
-          <!-- Date -->
-          <span class="date-time info">On
-            <span class="date">2017-05-11</span>
-            <span class="time">21:51:54</span>
-          </span>
-          
-          <!--  Categories  -->
-            <span class="categories info">Under 
+<div class="article-categories">
+  <span></span>
+  <a class="article-category-link" href="/categories/ios学习/">ios学习</a>
+</div>
 
-<a href="/categories/ios学习/">ios学习</a>
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://yoursite.com/2017/05/11/1/" data-title="计算器App心得 | Rookie&#39;s think" data-tsina="null" class="share clearfix">
+  </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2017/05/11/2/" title="getJSON中的问题的解答，与自己的思考">
+  <strong>PREVIOUS:</strong><br/>
+  <span>
+  getJSON中的问题的解答，与自己的思考</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2017/05/09/hello-world/"  title="Hello World">
+ <strong>NEXT:</strong><br/> 
+ <span>Hello World
 </span>
-          
-        </div>
-        <!-- Tags -->
-        
-          <div class="post-tags text-muted">
-            Tags: 
+</a>
+</div>
 
-<a class="tag" href="/tags/666/">#666</a>
+</nav>
 
+	
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
-          </div>
-        
-        <!-- Post Main Content -->
-        <div class="post-content">
-          <h1 id="计算器App心得"><a href="#计算器App心得" class="headerlink" title="计算器App心得"></a>计算器App心得</h1><h2 id="1-展示2-界面搭建"><a href="#1-展示2-界面搭建" class="headerlink" title="1.展示2.界面搭建"></a>1.展示<img src="/img/jsq.png" alt=""><a id="more"></a>2.界面搭建</h2><h3 id="界面主要由清新绿色背景构成，添加三个label-四个Button-构成的一个简易的计算器，通过属性连线，编写计算，也没啥可说的"><a href="#界面主要由清新绿色背景构成，添加三个label-四个Button-构成的一个简易的计算器，通过属性连线，编写计算，也没啥可说的" class="headerlink" title="界面主要由清新绿色背景构成，添加三个label,四个Button,构成的一个简易的计算器，通过属性连线，编写计算，也没啥可说的"></a>界面主要由清新绿色背景构成，添加三个label,四个Button,构成的一个简易的计算器，通过属性连线，编写计算，也没啥可说的</h3><h2 id="3-心得"><a href="#3-心得" class="headerlink" title="3.心得"></a>3.心得</h2><h3 id="在做之前我其实是一脸懵逼的，以前写C语言的时候通常是要靠直接写，但是做出来完全没有什么好看的，其实做这个还是蛮有意思的，与C不同的是这个可以自己直接搭建界面，也不困难，虽说刚开始什么也不懂，糊里糊涂做出来，这个主要就定义了三个对象，输入num1-num2-的文本格式，在计算之前转换为duoble，然后加减乘除得出sum。做的时候也出了不少问题，不知道强弱引用，也不知道super-self是什么鬼，而且还有为什么有NS-UI等前缀，通过学习使我逐步了解，慢慢运用，最终完成这东西。"><a href="#在做之前我其实是一脸懵逼的，以前写C语言的时候通常是要靠直接写，但是做出来完全没有什么好看的，其实做这个还是蛮有意思的，与C不同的是这个可以自己直接搭建界面，也不困难，虽说刚开始什么也不懂，糊里糊涂做出来，这个主要就定义了三个对象，输入num1-num2-的文本格式，在计算之前转换为duoble，然后加减乘除得出sum。做的时候也出了不少问题，不知道强弱引用，也不知道super-self是什么鬼，而且还有为什么有NS-UI等前缀，通过学习使我逐步了解，慢慢运用，最终完成这东西。" class="headerlink" title="在做之前我其实是一脸懵逼的，以前写C语言的时候通常是要靠直接写，但是做出来完全没有什么好看的，其实做这个还是蛮有意思的，与C不同的是这个可以自己直接搭建界面，也不困难，虽说刚开始什么也不懂，糊里糊涂做出来，这个主要就定义了三个对象，输入num1,num2 的文本格式，在计算之前转换为duoble，然后加减乘除得出sum。做的时候也出了不少问题，不知道强弱引用，也不知道super,self是什么鬼，而且还有为什么有NS,UI等前缀，通过学习使我逐步了解，慢慢运用，最终完成这东西。"></a>在做之前我其实是一脸懵逼的，以前写C语言的时候通常是要靠直接写，但是做出来完全没有什么好看的，其实做这个还是蛮有意思的，与C不同的是这个可以自己直接搭建界面，也不困难，虽说刚开始什么也不懂，糊里糊涂做出来，这个主要就定义了三个对象，输入num1,num2 的文本格式，在计算之前转换为duoble，然后加减乘除得出sum。做的时候也出了不少问题，不知道强弱引用，也不知道super,self是什么鬼，而且还有为什么有NS,UI等前缀，通过学习使我逐步了解，慢慢运用，最终完成这东西。</h3><h2 id="4-强力注释一波（加点字数）"><a href="#4-强力注释一波（加点字数）" class="headerlink" title="4.强力注释一波（加点字数）"></a>4.强力注释一波（加点字数）</h2><h3 id="1-强弱引用：默认所有的指针变量都是强指针，强引用也就是通常所讲的引用，其存亡直接决定了所指对象的存亡。如果不存在指向一个对象的引用，并且此对象不再显示列表中，则此对象会被从内存中释放。弱引用除了不决定对象的存亡外，其他与强引用相同。即使一个对象被持有无数个若引用，只要没有强引用指向他，那么其还是会被清除。"><a href="#1-强弱引用：默认所有的指针变量都是强指针，强引用也就是通常所讲的引用，其存亡直接决定了所指对象的存亡。如果不存在指向一个对象的引用，并且此对象不再显示列表中，则此对象会被从内存中释放。弱引用除了不决定对象的存亡外，其他与强引用相同。即使一个对象被持有无数个若引用，只要没有强引用指向他，那么其还是会被清除。" class="headerlink" title="1.强弱引用：默认所有的指针变量都是强指针，强引用也就是通常所讲的引用，其存亡直接决定了所指对象的存亡。如果不存在指向一个对象的引用，并且此对象不再显示列表中，则此对象会被从内存中释放。弱引用除了不决定对象的存亡外，其他与强引用相同。即使一个对象被持有无数个若引用，只要没有强引用指向他，那么其还是会被清除。"></a>1.强弱引用：默认所有的指针变量都是强指针，<strong>强引用也就是通常所讲的引用，其存亡直接决定了所指对象的存亡。如果不存在指向一个对象的引用，并且此对象不再显示列表中，则此对象会被从内存中释放。弱引用除了不决定对象的存亡外，其他与强引用相同。即使一个对象被持有无数个若引用，只要没有强引用指向他，那么其还是会被清除。</strong></h3><h3 id="2-self：在动态方法中，self代表着”对象”，在静态方法中，self代表着”类”。万变不离其宗，记住一句话就行了：self代表着当前方法的调用者。"><a href="#2-self：在动态方法中，self代表着”对象”，在静态方法中，self代表着”类”。万变不离其宗，记住一句话就行了：self代表着当前方法的调用者。" class="headerlink" title="2.self：在动态方法中，self代表着”对象”，在静态方法中，self代表着”类”。万变不离其宗，记住一句话就行了：self代表着当前方法的调用者。"></a>2.self：在动态方法中，self代表着”对象”，在静态方法中，self代表着”类”。万变不离其宗，记住一句话就行了：self代表着当前方法的调用者。</h3>
-        </div>
-      </div>
-    </div>
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#计算器App心得"><span class="toc-number">1.</span> <span class="toc-text">计算器App心得</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#展示界面搭建"><span class="toc-number">1.1.</span> <span class="toc-text">展示界面搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#界面主要由清新绿色背景构成，添加三个label-四个Button-构成的一个简易的计算器，通过属性连线，编写计算，也没啥可说的"><span class="toc-number">1.1.1.</span> <span class="toc-text">界面主要由清新绿色背景构成，添加三个label,四个Button,构成的一个简易的计算器，通过属性连线，编写计算，也没啥可说的</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#心得"><span class="toc-number">1.2.</span> <span class="toc-text">心得</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#在做之前我其实是一脸懵逼的，以前写C语言的时候通常是要靠直接写，但是做出来完全没有什么好看的，其实做这个还是蛮有意思的，与C不同的是这个可以自己直接搭建界面，也不困难，虽说刚开始什么也不懂，糊里糊涂做出来，这个主要就定义了三个对象，输入num1-num2-的文本格式，在计算之前转换为duoble，然后加减乘除得出sum。做的时候也出了不少问题，不知道强弱引用，也不知道super-self是什么鬼，而且还有为什么有NS-UI等前缀，通过学习使我逐步了解，慢慢运用，最终完成这东西。"><span class="toc-number">1.2.1.</span> <span class="toc-text">在做之前我其实是一脸懵逼的，以前写C语言的时候通常是要靠直接写，但是做出来完全没有什么好看的，其实做这个还是蛮有意思的，与C不同的是这个可以自己直接搭建界面，也不困难，虽说刚开始什么也不懂，糊里糊涂做出来，这个主要就定义了三个对象，输入num1,num2 的文本格式，在计算之前转换为duoble，然后加减乘除得出sum。做的时候也出了不少问题，不知道强弱引用，也不知道super,self是什么鬼，而且还有为什么有NS,UI等前缀，通过学习使我逐步了解，慢慢运用，最终完成这东西。</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#强力注释一波（加点字数）"><span class="toc-number">1.3.</span> <span class="toc-text">强力注释一波（加点字数）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#强弱引用：默认所有的指针变量都是强指针，强引用也就是通常所讲的引用，其存亡直接决定了所指对象的存亡。如果不存在指向一个对象的引用，并且此对象不再显示列表中，则此对象会被从内存中释放。弱引用除了不决定对象的存亡外，其他与强引用相同。即使一个对象被持有无数个若引用，只要没有强引用指向他，那么其还是会被清除。"><span class="toc-number">1.3.1.</span> <span class="toc-text">强弱引用：默认所有的指针变量都是强指针，强引用也就是通常所讲的引用，其存亡直接决定了所指对象的存亡。如果不存在指向一个对象的引用，并且此对象不再显示列表中，则此对象会被从内存中释放。弱引用除了不决定对象的存亡外，其他与强引用相同。即使一个对象被持有无数个若引用，只要没有强引用指向他，那么其还是会被清除。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#self：在动态方法中，self代表着”对象”，在静态方法中，self代表着”类”。万变不离其宗，记住一句话就行了：self代表着当前方法的调用者。"><span class="toc-number">1.3.2.</span> <span class="toc-text">self：在动态方法中，self代表着”对象”，在静态方法中，self代表着”类”。万变不离其宗，记住一句话就行了：self代表着当前方法的调用者。</span></a></li></ol></li></ol></li></ol>
   </div>
-</article>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+			<li><a href="/categories/ios学习/" title="ios学习">ios学习<sup>2</sup></a></li>
+		
+			<li><a href="/categories/博客/" title="博客">博客<sup>1</sup></a></li>
+		
+		</ul>
+</div>
 
 
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/666/" title="666">666<sup>3</sup></a></li>
+		
+		</ul>
+</div>
 
-    <!-- Footer -->
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <p class="copyright text-muted">
-          Theme By <a target="_blank" href="https://github.com/levblanc">Levblanc.</a>
-          Inspired By <a target="_blank" href="https://github.com/klugjo/hexo-theme-clean-blog">Clean Blog.</a>
-        <p class="copyright text-muted">
-          Powered By <a target="_blank" href="https://hexo.io/">Hexo.</a>
-        </p>
-      </div>
+
+  <div class="rsspart">
+	<a href="null" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
     </div>
-  </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> 程序猿上辈子都是折翼的天使 <br/>
+			This is my blog,believe it or not.</p>
+	</section>
+	 
+	<div class="social-font clearfix">
+		
+		
+		
+		<a href="https://github.com/RoyalQ for https://github.com/RoyalQ" target="_blank" title="github"></a>
+		
+		
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2017 
+		
+		<a href="http://yoursite.com" target="_blank" title="QXQ">QXQ</a>
+		
+		</p>
+</div>
 </footer>
+    <script src="/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
 
 
-    <!-- After Footer Scripts -->
-<script src="/js/highlight.pack.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function(event) {
-    var codeBlocks = Array.prototype.slice.call(document.getElementsByTagName('pre'))
-    codeBlocks.forEach(function(block, index) {
-      hljs.highlightBlock(block);
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
     });
   });
+});     
 </script>
+
+
+
+
+
 
   </body>
 </html>
-
